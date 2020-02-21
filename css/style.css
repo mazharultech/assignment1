@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* common css ends */
+
+#banner-part {
+    padding-top: 80px;
+}
+
+#banner-part .banner {
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner-part .banner .item {
+    display: flex;
+}
+
+#banner-part .banner .item .col_1 {
+    width: 50%;
+}
+
+#banner-part .banner .item .col_1 img {
+    width: 68%;
+}
+
+#banner-part .banner .item .text {
+    padding-top: 75px;
+    padding-left: 100px;
+}
+
+#banner-part .banner .item .col_1 h1 {
+    color: #202428;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#banner-part h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #ec4c7a;
+    padding-top: 4px;
+}
+
+#banner-part p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    padding-top: 30px;
+}
+
+#banner-part a {
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #ec4c7a;
+    padding: 10px 25px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-top: 20px;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    border: 1px solid #ec4c7a;
+}
+
+#banner-part a:hover {
+    background: rgb(250, 244, 244);
+    border-color: #ec4c7a;
+    color: #000;
+}
+
+
+/* banner part ends */
+
+#biography-part {
+    padding: 20px 0;
+}
+
+#biography-part .biography {
+    background: url(../images/biography-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+#biography-part .biography .col_1 {
+    width: 50%;
+}
+
+#biography-part .biography .content {
+    display: flex;
+}
+
+#biography-part img {
+    width: 64%;
+}
+
+#biography-part h2 {
+    color: #202428;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#biography-part a {
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #ec4c7a;
+    padding: 10px 25px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-top: 20px;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    border: 1px solid #ec4c7a;
+}
+
+#biography-part a:hover {
+    background: rgb(250, 244, 244);
+    border-color: #ec4c7a;
+    color: #000;
+}
+
+#biography-part p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    padding: 20px 15px 20px 0;
+}
+
+#biography-part .text {
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+#biography-part .image {
+    padding-left: 50px;
+}
+
+
+/* biography part ends */
+
+#work-part {
+    padding: 60px 0;
+}
+
+#work-part .work {
+    background: url(../images/latest-work-bg.png) no-repeat center;
+    background-size: cover;
+}
+
+#work-part .work img {
+    width: 88%;
+}
+
+#work-part .work .item {
+    display: flex;
+}
+
+#work-part .work h2 {
+    color: #202428;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/* work part ends */
+
+#client_part {
+    padding: 60px 0 80px;
+}
+
+#client_part .client {
+    background: url(../images/footer-bg.png) no-repeat center;
+    background-size: cover;
+}
+
+#client_part .text {
+    text-align: center;
+}
+
+#client_part .text h2 {
+    color: #202428;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+#client_part .text h3 {
+    color: #202428;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#client_part .text h4 {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-top: 7px;
+}
+
+#client_part .text p {
+    color: #333333;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+#client_part .mess {
+    text-align: center;
+    margin-left: 18%;
+    width: 44%;
+    padding: 20px 100px 50px 100px;
+    background-color: #ec5195;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#client_part .mess h4 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#client_part .mess h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+/* client part ends */
+
+footer p {
+    text-align: center;
+    color: #707070;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 50px;
+}
